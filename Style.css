@@ -1,0 +1,134 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    height: 200px;
+}
+
+button {
+    font-size: 10px;
+    font-weight: 30px;
+    background: #c51111;
+    color: aliceblue;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.irmaos-marios {
+    height: 400px;
+}
+
+ body {  
+    height: 100vh;
+ }
+
+ .caixa-principal {
+    width: 50%;
+ }
+
+
+ .caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+    color: antiquewhite;
+ }
+
+ .caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+   
+ }
+
+ video {
+   min-height: 100%; 
+   min-height: 100%;
+   position: fixed;
+   top: 0;
+
+ }
+
+ .mascara {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+ }
+
+
+
+.caixa-head {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin: 20px;
+   cursor: pointer;
+}
+
+.caixa-head img {
+   height: 50px;
+}
+
+.caixa-head a {
+ color: beige; 
+ font-size: 24px;
+}
+
+.link-whatsapp img {
+   height: 50px;
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+}
+
+.caixa-head a:hover {
+   color: #c51111;
+   font-size: 24px;
+   transition: 0.5s color ease-in-out;
+}
+
+
+.Formulario {
+   height: 400px;
+   width: 350px;
+   background: #ffff;
+   display: flex;
+   gap: 10px;
+   flex-direction: column;   
+   position: fixed;
+   padding: 20px;
+   top: 30%;
+   left: -335px;
+   border-radius: 5px;   
+}
+
+input {
+   height: 40px;
+   border-radius: 5px;
+   border: 1px solid gray;
+   padding-left: 5px;
+   outline-color: #c51111;
+   margin-top: 20px;
+}
+
+textarea {
+   height: 100px;
+   border-radius: 5px;
+   border: 1px solid gray;
+   padding-left: 5px;
+   outline-color: #c51111;
+   margin-top: 20px;
+}

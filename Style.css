@@ -68,6 +68,17 @@ button {
     top: 0;
  }
 
+ .mascara-furmulario {
+   visibility: hidden;
+   position: fixed;
+   top: 0;
+   width: 100vw;
+   height: 100vh;
+   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+transition: visibility 0.5s ease-in-out;
+
+ }
+
 
 
 .caixa-head {
@@ -113,6 +124,7 @@ button {
    top: 30%;
    left: -335px;
    border-radius: 5px;   
+   transition: left 2s ease-in-out;
 }
 
 input {
@@ -131,4 +143,56 @@ textarea {
    padding-left: 5px;
    outline-color: #c51111;
    margin-top: 20px;
+}
+
+@media (max-width: 1100px) {
+   
+   p {display: none;}
+
+   .caixa-mae {
+      flex-direction: column;
+      padding: 10px;
+      justify-content: f;
+   }
+   .caixa-principal{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   .irmaos-marios {
+      width: 90vw;
+      height: auto;
+   }
+
+   .caixa-head img {
+      display: none;     
+   }
+
+   .caixa-head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .caixa-head {
+      margin: 10px;
+   }
+
+   .caixa-head a {
+      font-size: 18px;      
+   }
+
+   .Formulario {
+      top: 30%;
+   left: -335px;
+   }
+
+   /*.Formulario {
+      height: 350px;
+      width: 250px;
+   }*/
+
+
+   
 }
